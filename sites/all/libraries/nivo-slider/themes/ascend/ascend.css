@@ -1,0 +1,116 @@
+/*
+Skin Name: Ascend Nivo Slider Theme
+Skin URI: http://ascendpsych.com
+Skin Type: flexible
+Description: Skin themed for Ascend Psych
+Version: 1.0
+Author: Jason Kuhn
+Author URI: http://jasonku.hn
+*/
+
+.theme-ascend .nivoSlider {
+    width: 100% !important;
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:0;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+    background-position: top right !important;
+}
+
+.theme-ascend .nivoSlider img {
+        float: right;
+	display:none;
+        height: auto;
+}
+.theme-ascend .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-ascend .nivo-controlNav {
+	position:absolute;
+	right: 5px;
+	top: 5px;
+    margin-left:-40px;
+}
+.theme-ascend .nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.theme-ascend .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-ascend .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+.theme-ascend a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-ascend a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-ascend .nivo-directionNav-alt {
+	position:absolute;
+	right: 0;
+	bottom:-60px;
+    margin-left:-40px;
+    display: block !important;
+}
+
+.theme-ascend .nivo-directionNav-alt a {
+        position: relative;
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:url(ascend-arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+        cursor: pointer;
+}
+.theme-ascend .nivo-directionNav-alt a.nivo-nextNav {
+	background-position:-30px 0;
+	right:0;
+}
+.theme-ascend .nivo-directionNav-alt a.nivo-prevNav {
+	left:0;
+}
+
+.theme-ascend .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
+    width: 222px;
+    height: 276px;
+    
+    background: #44c5f5; /* Old browsers */
+    background-image: url('bg-pattern.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
+    background-image: url('bg-pattern.png'), -webkit-linear-gradient(top, #44c5f5 0%,#0280af 100%); /* Chrome10+,Safari5.1+ */
+    background-image: url('bg-pattern.png'), -moz-linear-gradient(top, #44c5f5 0%,#0280af 100%);
+    color: #fdfdfd;
+}
+.theme-ascend .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-ascend .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-ascend .nivo-slice {
+    background-position: top right !important;
+}

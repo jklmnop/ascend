@@ -1,0 +1,311 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* For modern browsers */
+body {
+    background: #fdfdfd url('../images/bg-pattern.png');
+}
+
+.section-header {
+    background-color: linear-gradient(top, #008bbf 0%,#66cef5 50%,#008bbf 100%);
+    background-image: url('../images/bg-pattern.png');
+    
+    background: #008bbf;
+    background-image: url('../images/bg-pattern.png'); /* fallback */
+    background-image: url('../images/bg-pattern.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#008bbf), color-stop(50%,#66cef5), color-stop(100%,#008bbf)); /* Saf4+, Chrome */
+    background-image: url('../images/bg-pattern.png'), -webkit-linear-gradient(top, #008bbf 0%,#66cef5 50%,#008bbf 100%); /* Chrome 10+, Saf5.1+ */
+    background-image: url('../images/bg-pattern.png'), -moz-linear-gradient(top, #008bbf 0%,#66cef5 50%,#008bbf 100%); /* FF3.6+ */
+/*background-image:     url('../images/bg-pattern.png'), -ms-linear-gradient(top, #444444, #999999); /* IE10 */
+/*background-image:      url('../images/bg-pattern.png'), -o-linear-gradient(top, #444444, #999999); /* Opera 11.10+ */
+/*background-image:         url('../images/bg-pattern.png'), linear-gradient(top, #444444, #999999); /* W3C */
+                      
+    background-repeat: repeat;
+    
+    border-bottom: 1px solid #ccc;
+    -webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.75);
+}
+
+.zone-header,
+.zone-content,
+.zone-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zone-header {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #fdfdfd;
+    
+    border-bottom: none;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    -moz-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.zone-content {
+    background-color: #fdfdfd;
+    margin-top: -30px;
+    
+}
+
+
+.zone-footer {
+    background-color: #fdfdfd;
+    border-top: none;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0;
+}
+
+.region-footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider-wrapper {
+    display: none;
+    padding: 15px;
+    background: #fdfdfd url('../images/bg-pattern.png');
+    -moz-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+#about-us-teaser-wrap {
+    margin-bottom: 30px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#about-us-teaser-wrap .content {
+    background: #fdfdfd url('../images/bg-pattern.png');
+    -moz-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    padding: 15px 20px;
+    
+}
+
+#about-us-teaser-wrap .content p {
+    margin: 0;
+}
+
+#about-us-teaser-wrap .content strong {
+    color: #109dd2;
+}
+
+#mini-panel-meet_our_team {
+    margin: 0;
+}
+
+#meet-our-team-wrap {
+    padding-bottom: 29px;
+    margin-bottom: 30px;
+}
+
+#meet-our-team {
+    background: #fdfdfd url('../images/bg-pattern.png');
+    padding: 30px 20px;
+    margin-bottom: 15px;
+    
+    -moz-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+    box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+#meet-our-team .pane-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#meet-our-team .read-more {
+    text-align: center;
+    
+    padding: 10px 0;
+    margin: 0;
+    
+    background: #44c5f5; /* Old browsers */
+    background-image: url('../images/bg-pattern.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
+    background-image: url('../images/bg-pattern.png'), -webkit-linear-gradient(top, #44c5f5 0%,#0280af 100%); /* Chrome10+,Safari5.1+ */
+    background-image: url('../images/bg-pattern.png'), -moz-linear-gradient(top, #44c5f5 0%,#0280af 100%);
+    border: 1px solid #0079a7;
+    
+}
+
+#meet-our-team .read-more a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.profile-stub {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.profile-stub-name {
+    margin-top: 1.5em;
+}
+
+.profile-stub-name a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    border-bottom: none;
+}
+
+.profile-stub-name a:hover,
+.profile-stub-name a:focus {
+    border-bottom: 1px solid #000;
+} 
+
+
+#contact-us {
+    background: #44c5f5; /* Old browsers */
+    background-image: url('../images/bg-pattern.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
+    background-image: url('../images/bg-pattern.png'), -webkit-linear-gradient(top, #44c5f5 0%,#0280af 100%); /* Chrome10+,Safari5.1+ */
+    background-image: url('../images/bg-pattern.png'), -moz-linear-gradient(top, #44c5f5 0%,#0280af 100%);
+
+
+color: #fdfdfd;
+
+padding: 10px;
+    
+}
+
+#contact-us textarea.form-textarea {
+    height: 100%;
+    width: 100%;
+}
+
+#contact-us input.form-text {
+    width: 100%;
+    margin-top: 0;
+}
+
+#contact-us .field-name-body a,
+#contact-us .field-name-body a:visited {
+    text-decoration: none;
+    border-bottom: none;
+    color: #fdfdfd;
+}
+
+#contact-us .field-name-body a:hover,
+#contact-us .field-name-body a:focus {
+    border-bottom: 1px solid #fdfdfd;
+}
+
+#contact-us .webform-component-fieldset {
+    border: none;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+#contact-us .form-actions {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#contact-us label {
+    display: none;
+}
+
+#contact-us .fieldset-legend {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#contact-us .form-submit {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #0083b5;
+    background-color: #fdfdfd; 
+    
+}
+
+.main-menu {
+    margin-top: 15px;
+    
+    
+}
+
+.main-menu li {
+    background: #44c5f5; /* Old browsers */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top, #44c5f5 0%,#0280af 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -moz-linear-gradient(top, #44c5f5 0%,#0280af 100%);
+    border: 1px solid #0079a7;
+    
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+.main-menu li a {
+    display: block;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.main-menu li a.active {
+    border-left: 10px solid #f7941e;
+    text-indent: -10px;
+}
+
+.fine-print {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.fine-print .site-by a {
+    color: #000;
+    border: none;
+    text-decoration: none;
+}
+
+.fine-print .site-by a:hover,
+.fine-print .site-by a:focus {
+    border-bottom: 1px solid #000;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}

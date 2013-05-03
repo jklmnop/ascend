@@ -1,0 +1,20 @@
+<?php
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function ascend_panels_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'panels' || $module == 'ctools') {
+    return 'plugins/' . $plugin;
+  }
+}
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+function ascend_panels_ctools_plugin_api($module, $api) {
+  if (($module == 'panels' || $module == 'ctools') && $api == 'styles') {
+// Check and return correct style version
+
+    return array('version' => 2);
+  }
+}

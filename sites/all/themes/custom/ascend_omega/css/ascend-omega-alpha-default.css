@@ -1,0 +1,156 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+.section-header {
+    
+    height: 300px;
+}
+
+.zone-header,
+.zone-content,
+.zone-footer {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.zone-header {
+    margin-top: 40px;
+    padding-top: 60px;
+}
+
+.zone-content {
+    margin-top: -100px;  
+}
+
+.region-footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+}
+
+.slider-wrapper {
+    display: block;
+    margin-bottom: 70px;
+}
+
+#mini-panel-meet_our_team {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#meet-our-team-wrap {
+    padding-bottom: 29px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+#contact-us {
+
+    border: 1px solid #0079a7;
+
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+
+padding: 40px 60px;
+    
+}
+
+
+
+#contact-us .field-name-body {
+    float: left;
+    display: inline-block;
+    width: 33%;    
+}
+
+
+
+#contact-us .webform-client-form {
+    float: left;
+    display: inline-block;
+    width: 66%;
+}
+
+#contact-us .webform-component-fieldset {
+    width: 50%;
+    float: left;
+}
+
+#contact-us .webform-component-textarea {
+    width: 50%;
+    float: left;
+    padding-top: 24px;
+}
+
+#contact-us input.form-text {
+    width: 256px;
+}
+
+#contact-us .form-actions {
+    float: left;
+    width: 100%;
+}
+
+.main-menu {
+    margin-top: 15px;
+    
+    background: #44c5f5; /* Old browsers */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top, #44c5f5 0%,#0280af 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -moz-linear-gradient(top, #44c5f5 0%,#0280af 100%);
+    border: 1px solid #0079a7;
+}
+
+.main-menu li {
+    display: inline-block;
+    width: 98px;
+    margin: 0;
+    
+    background: none;
+    border: none;
+}
+
+.main-menu li a {
+    display: inline;
+    color: #fdfdfd;
+    text-decoration: none;
+    background: none;
+}
+
+.main-menu li a.active {
+    border-left: none;
+    border-bottom: 3px solid #66cef5;
+    background: none;
+    text-indent: 0;
+}
+
+.main-menu li a:hover,
+.main-menu li a:focus {
+    border-bottom: 3px solid #fdfdfd;
+    background: none;
+}
+
+#about-us-teaser-wrap {
+    margin-bottom: 70px;
+}
+
+
+.profile-stub {
+    margin: 0;
+}
+
+.fine-print {
+    text-align: left;
+}
+
+.fine-print .site-by {
+    text-align: right;
+}
+
+
+::-webkit-input-placeholder {
+    color:    #ccc !important;
+}
+:-moz-placeholder {
+    color:    #ccc !important;
+}

@@ -1,0 +1,40 @@
+<?php
+/**
+ * implements HOOK_nivo_slider_theme
+ */
+
+function ascend_nivo_slider_nivo_slider_theme() {
+      // Find the path to the Nivo Slider jQuery plugin
+  $library_path = libraries_get_path('nivo-slider');
+  return array(
+    'ascend' => array(
+      'name' => t('Ascend'),
+      'description' => t('Ascend Slider theme.'),
+      'override' => array(
+        'css' => false,
+        'js' => false
+      ),
+      'resources' => array(
+        'css' => array(
+          $library_path . '/themes/ascend/ascend.css'
+        ),
+        'js' => array(
+            $library_path . '/themes/ascend/ascend.js'
+        )
+      ),
+    ),
+  );
+}
+
+/**
+ * Implements hook_image_styles_alter().
+ * /
+function ascend_nivo_slider_image_styles_alter(&$styles) {
+    if(isset($styles['nivo_slider_slide']) && $styles['nivo_slider_slide']['storage'] == IMAGE_STORAGE_DEFAULT) {
+                
+        $styles['nivo_slider_slide']['effects'][0]['data']['width'] = 688;
+        $styles['nivo_slider_slide']['effects'][0]['data']['height'] = 276;
+
+    }
+}
+/**/

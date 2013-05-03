@@ -1,0 +1,7 @@
+name = Ascend Panels
+description = This is a collection of our panel layouts
+core = 7.x
+
+package = Ascend
+
+dependencies[] = panels

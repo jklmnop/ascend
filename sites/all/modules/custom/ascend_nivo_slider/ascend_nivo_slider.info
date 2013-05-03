@@ -1,0 +1,7 @@
+name = Ascend Nivo Slider
+description = This enables the Ascend Nivo Slider theme
+core = 7.x
+
+package = Ascend
+
+dependencies[] = nivo_slider
