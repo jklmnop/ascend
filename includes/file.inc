@@ -1539,7 +1539,8 @@ function file_save_upload($source, $validators = array(), $destination = FALSE, 
   // directory. This overcomes open_basedir restrictions for future file
   // operations.
   $file->uri = $file->destination;
-  if (!drupal_move_uploaded_file($_FILES['files']['tmp_name'][$source], $file->uri)) {
+  //if (!drupal_move_uploaded_file($_FILES['files']['tmp_name'][$source], $file->uri)) {
+  if (!move_uploaded_file($_FILES['files']['tmp_name'][$source], drupal_realpath($file->uri))) {
     form_set_error($source, t('File upload error. Could not move uploaded file.'));
     watchdog('file', 'Upload error. Could not move uploaded file %file to destination %destination.', array('%file' => $file->filename, '%destination' => $file->uri));
     return FALSE;
