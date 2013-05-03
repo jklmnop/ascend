@@ -23,7 +23,9 @@ Author URI: http://jasonku.hn
         float: right;
 	display:none;
         height: auto;
+        width: auto !important;
 }
+
 .theme-ascend .nivoSlider a {
 	border:0;
 	display:block;
@@ -35,6 +37,7 @@ Author URI: http://jasonku.hn
 	top: 5px;
     margin-left:-40px;
 }
+
 .theme-ascend .nivo-controlNav a {
 	display:block;
 	width:22px;
@@ -45,6 +48,7 @@ Author URI: http://jasonku.hn
 	margin-right:3px;
 	float:left;
 }
+
 .theme-ascend .nivo-controlNav a.active {
 	background-position:0 -22px;
 }
@@ -68,7 +72,7 @@ Author URI: http://jasonku.hn
 .theme-ascend .nivo-directionNav-alt {
 	position:absolute;
 	right: 0;
-	bottom:-60px;
+	bottom:-50px;
     margin-left:-40px;
     display: block !important;
 }

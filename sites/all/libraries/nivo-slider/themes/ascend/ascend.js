@@ -4,5 +4,6 @@ jQuery(function(){
     $clone
         .removeClass('nivo-directionNav')
         .addClass('nivo-directionNav-alt')
-        .appendTo('.nivoSlider');
+        .insertAfter('.nivoSlider');
+
 });
