@@ -33,8 +33,7 @@ body {
 }
 
 .zone-header,
-.zone-content,
-.zone-footer {
+.zone-content {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 10px;
@@ -64,19 +63,6 @@ body {
     background-color: #fdfdfd;
     margin-top: -30px;
     
-}
-
-
-.zone-footer {
-    background-color: #fdfdfd;
-    border-top: none;
-    -webkit-border-bottom-right-radius: 20px;
-    -webkit-border-bottom-left-radius: 20px;
-    -moz-border-radius-bottomright: 20px;
-    -moz-border-radius-bottomleft: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding: 0;
 }
 
 .region-footer {
@@ -186,8 +172,7 @@ body {
     border-bottom: 1px solid #000;
 } 
 
-
-#contact-us {
+.zone-footer-wrapper {
     background: #44c5f5; /* Old browsers */
     background-image: url('../images/bg-pattern.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
     background-image: url('../images/bg-pattern.png'), -webkit-linear-gradient(top, #44c5f5 0%,#0280af 100%); /* Chrome10+,Safari5.1+ */
@@ -197,58 +182,6 @@ body {
 color: #fdfdfd;
 
 padding: 10px;
-    
-}
-
-#contact-us textarea.form-textarea {
-    height: 100%;
-    width: 100%;
-}
-
-#contact-us input.form-text {
-    width: 100%;
-    margin-top: 0;
-}
-
-#contact-us .field-name-body a,
-#contact-us .field-name-body a:visited {
-    text-decoration: none;
-    border-bottom: none;
-    color: #fdfdfd;
-}
-
-#contact-us .field-name-body a:hover,
-#contact-us .field-name-body a:focus {
-    border-bottom: 1px solid #fdfdfd;
-}
-
-#contact-us .webform-component-fieldset {
-    border: none;
-    font-size: 1.2em;
-    padding: 0;
-    margin: 0;
-}
-
-#contact-us .form-actions {
-    text-align: right;
-    padding-top: 10px;
-}
-
-#contact-us label {
-    display: none;
-}
-
-#contact-us .fieldset-legend {
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-#contact-us .form-submit {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    color: #0083b5;
-    background-color: #fdfdfd; 
     
 }
 
