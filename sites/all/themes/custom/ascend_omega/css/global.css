@@ -5,6 +5,13 @@ body {
     background: #fdfdfd url('../images/bg-pattern.png');
 }
 
+img {
+    
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 .section-header {
     background-color: linear-gradient(top, #008bbf 0%,#66cef5 50%,#008bbf 100%);
     background-image: url('../images/bg-pattern.png');
