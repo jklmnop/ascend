@@ -226,11 +226,13 @@ padding: 10px;
 .copyright {
     color: #fdfdfd;
     text-align: left;
+    padding: 1.5em 0;
 }
 
 .site-by {
     color: #fdfdfd;
     text-align: right;
+    padding: 1.5em 0;
 }
 
 .site-by a {
