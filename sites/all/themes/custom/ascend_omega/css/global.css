@@ -63,6 +63,7 @@ body {
     background-color: #fdfdfd;
     margin-top: -30px;
     
+    min-height: 500px;
 }
 
 .region-footer {
@@ -71,7 +72,6 @@ body {
 }
 
 .slider-wrapper {
-    display: none;
     padding: 15px;
     background: #fdfdfd url('../images/bg-pattern.png');
     -moz-box-shadow: 0 0 5px 1px rgba(50, 50, 50, 0.75);
@@ -259,4 +259,21 @@ padding: 10px;
 /* For IE 6/7 (trigger hasLayout) */
 .clearfix {
     zoom:1;
+}
+
+@media screen and (max-width: 739px) {
+    .theme-ascend .nivo-caption {
+        height: auto;
+        width: auto;
+        position: relative;
+        float: none;
+    }
+    
+    .theme-ascend .nivoSlider img {
+        float: none;
+        width: 100%
+        max-width: 100%;
+        height: auto;
+        
+    }
 }

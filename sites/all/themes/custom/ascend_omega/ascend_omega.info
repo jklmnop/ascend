@@ -47,6 +47,11 @@ libraries[omega_modernizr][description] =  Adds modernizr to help with css.
 libraries[omega_modernizr][js][0][file] = modernizr.js
 libraries[omega_modernizr][js][0][options][weight] = -20
 
+; Behaviors 
+libraries[omega_behaviors][name] = Ascend Behaviors
+libraries[omega_behaviors][description] = Behaviors for the Ascend Subtheme
+libraries[omega_behaviors][js][0][file] = behaviors.js
+
 ; PLUGINS
 plugins[panels][layouts] = panels/layouts
 
