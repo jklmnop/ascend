@@ -5,7 +5,7 @@ body {
     background: #fdfdfd url('../images/bg-pattern.png');
 }
 
-.field_type_image img {
+.field-type-image img {
     width: 100%;
     max-width: 100%;
     height: auto;
