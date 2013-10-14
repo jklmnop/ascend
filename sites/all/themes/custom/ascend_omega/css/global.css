@@ -262,6 +262,10 @@ padding: 10px;
 }
 
 @media screen and (max-width: 739px) {
+    body {
+        font-size: 16px;
+    }
+    
     .theme-ascend .nivo-caption {
         height: auto;
         width: auto;
