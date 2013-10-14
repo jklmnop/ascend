@@ -218,20 +218,30 @@ padding: 10px;
     text-indent: -10px;
 }
 
-.fine-print {
-    margin: 20px 0;
-    text-align: center;
+.site-by {
+    
+    text-align: right;
 }
 
-.fine-print .site-by a {
-    color: #000;
+.copyright {
+    color: #fdfdfd;
+    text-align: left;
+}
+
+.site-by {
+    color: #fdfdfd;
+    text-align: right;
+}
+
+.site-by a {
+    color: #fdfdfd;
     border: none;
     text-decoration: none;
 }
 
-.fine-print .site-by a:hover,
-.fine-print .site-by a:focus {
-    border-bottom: 1px solid #000;
+.site-by a:hover, 
+.site-by a:focus {
+    border-bottom: 1px solid #fdfdfd;
 }
 
 .clearfix:before,
