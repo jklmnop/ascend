@@ -20,10 +20,10 @@ Author URI: http://jasonku.hn
 }
 
 .theme-ascend .nivoSlider img {
-        float: right;
+        /*float: right;*/
 	display:none;
         height: auto;
-        width: auto !important;
+        width: 100% !important;
 }
 
 .theme-ascend .nivoSlider a {
@@ -97,9 +97,9 @@ Author URI: http://jasonku.hn
 
 .theme-ascend .nivo-caption {
     font-family: Helvetica, Arial, sans-serif;
-    float: left;
+    /*float: left;
     width: 222px;
-    height: 276px;
+    height: 276px;*/
     
     background: #44c5f5; /* Old browsers */
     background-image: url('bg-pattern.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44c5f5), color-stop(100%,#0280af)); /* Chrome,Safari4+ */
