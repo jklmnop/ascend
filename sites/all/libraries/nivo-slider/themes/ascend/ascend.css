@@ -96,6 +96,7 @@ Author URI: http://jasonku.hn
 }
 
 .theme-ascend .nivo-caption {
+    position: relative;
     font-family: Helvetica, Arial, sans-serif;
     /*float: left;
     width: 222px;
