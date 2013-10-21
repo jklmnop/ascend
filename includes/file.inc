@@ -1539,8 +1539,7 @@ function file_save_upload($source, $validators = array(), $destination = FALSE, 
   // directory. This overcomes open_basedir restrictions for future file
   // operations.
   $file->uri = $file->destination;
-  //if (!drupal_move_uploaded_file($_FILES['files']['tmp_name'][$source], $file->uri)) {
-  if (!move_uploaded_file($_FILES['files']['tmp_name'][$source], drupal_realpath($file->uri))) {
+  if (!drupal_move_uploaded_file($_FILES['files']['tmp_name'][$source], $file->uri)) {
     form_set_error($source, t('File upload error. Could not move uploaded file.'));
     watchdog('file', 'Upload error. Could not move uploaded file %file to destination %destination.', array('%file' => $file->filename, '%destination' => $file->uri));
     return FALSE;
@@ -2200,29 +2199,21 @@ function drupal_unlink($uri, $context = NULL) {
 }
 
 /**
- * Returns the absolute local filesystem path of a stream URI.
+ * Resolves the absolute filepath of a local URI or filepath.
  *
- * This function was originally written to ease the conversion of 6.x code to
- * use 7.x stream wrappers. However, it assumes that every URI may be resolved
- * to an absolute local filesystem path, and this assumption fails when stream
- * wrappers are used to support remote file storage. Remote stream wrappers
- * may implement the realpath method by always returning FALSE. The use of
- * drupal_realpath() is discouraged, and is slowly being removed from core
- * functions where possible.
+ * The use of drupal_realpath() is discouraged, because it does not work for
+ * remote URIs. Except in rare cases, URIs should not be manually resolved.
  *
  * Only use this function if you know that the stream wrapper in the URI uses
  * the local file system, and you need to pass an absolute path to a function
  * that is incompatible with stream URIs.
  *
- * @param $uri
- *   A stream wrapper URI or a filesystem path, possibly including one or more
- *   symbolic links.
+ * @param string $uri
+ *   A stream wrapper URI or a filepath, possibly including one or more symbolic
+ *   links.
  *
- * @return
- *   The absolute local filesystem path (with no symbolic links), or FALSE on
- *   failure.
- *
- * @todo This function is deprecated, and should be removed wherever possible.
+ * @return string|false
+ *   The absolute local filepath (with no symbolic links), or FALSE on failure.
  *
  * @see DrupalStreamWrapperInterface::realpath()
  * @see http://php.net/manual/function.realpath.php
