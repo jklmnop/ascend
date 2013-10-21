@@ -5,6 +5,26 @@ body {
     background: #fdfdfd url('../images/bg-pattern.png');
 }
 
+p {
+    font-size: 1.2em;
+}
+
+h2.pane-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.content li {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
 .field-type-image img {
     width: 100%;
     max-width: 100%;
@@ -172,6 +192,11 @@ body {
 .profile-stub-name a:focus {
     border-bottom: 1px solid #000;
 } 
+
+.field-name-field-profile-photo {
+    margin-bottom: 1.5em;
+    
+}
 
 .zone-footer-wrapper {
     background: #44c5f5; /* Old browsers */
