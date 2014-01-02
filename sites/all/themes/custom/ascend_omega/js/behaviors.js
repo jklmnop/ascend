@@ -10,7 +10,7 @@
       	'background-position': 'center center',
       	'height': '200px',
       	'position': 'relative',
-      	'margin-bottom': '.5em'
+      	'margin-bottom': '1.5em'
       });
 
       $title_wrap.find('h1').css({
