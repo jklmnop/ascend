@@ -38,14 +38,6 @@ function _ascend_omega_webform_set_placeholder($form) {
    
 }
 
-function ascend_omega_preprocess_html(&$vars) {
+function ascend_omega_preprocess_page(&$vars) {
     
-    //echo '<pre>'; print_r($vars['page']);
-    
-} 
-
-function ascend_omega_preprocess_node(&$vars) {
-    
-    //echo '<pre>'; print_r($vars); die;
-    
-} 
+}

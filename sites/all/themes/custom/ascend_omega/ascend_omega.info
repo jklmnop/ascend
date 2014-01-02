@@ -51,6 +51,7 @@ libraries[omega_modernizr][js][0][options][weight] = -20
 libraries[omega_behaviors][name] = Ascend Behaviors
 libraries[omega_behaviors][description] = Behaviors for the Ascend Subtheme
 libraries[omega_behaviors][js][0][file] = behaviors.js
+libraries[omega_modernizr][js][0][options][weight] = -10
 
 ; PLUGINS
 plugins[panels][layouts] = panels/layouts
