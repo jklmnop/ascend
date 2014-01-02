@@ -9,7 +9,8 @@
       	'background-size': 'cover',
       	'background-position': 'center center',
       	'height': '200px',
-      	'position': 'relative'
+      	'position': 'relative',
+      	'margin-bottom': '.5em'
       });
 
       $title_wrap.find('h1').css({

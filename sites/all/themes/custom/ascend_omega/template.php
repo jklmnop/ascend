@@ -40,4 +40,7 @@ function _ascend_omega_webform_set_placeholder($form) {
 
 function ascend_omega_preprocess_page(&$vars) {
     
+    if($vars['node']->type === 'panel') {
+        drupal_set_title('');
+    }
 }
