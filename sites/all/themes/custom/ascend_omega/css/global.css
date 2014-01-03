@@ -20,6 +20,11 @@ h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+input[type="text"],
+textarea {
+    width: 100%;
+}
+
 .content li {
     font-size: 1.2em;
     margin-bottom: 1em;
