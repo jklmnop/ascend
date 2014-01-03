@@ -294,6 +294,26 @@ padding: 10px;
     zoom:1;
 }
 
+.title-image {
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.title-image h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: .25em;
+    color: #fdfdfd;
+    width: auto;
+    background-color: rgba(2,128,175,.5);
+    font-size: 3em;
+}
+
 @media screen and (max-width: 739px) {
     body {
         font-size: 16px;

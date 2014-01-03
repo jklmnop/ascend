@@ -53,8 +53,8 @@ function ascend_panels_title_image_content_type_render($subtype, $conf, $panel_a
   // Wrap title with block that will hold the background image
   $lang = $context->data->language;
   if(isset($context->data->field_image[$lang][0]) && !empty($context->data->field_image[$lang][0])) {
-    $data = 'data-image="' . image_style_url('extra_large', $context->data->field_image[$lang][0]['uri']) .'"';
-    $content = '<div '.$data.' >'.$content.'</div>';
+    $imagepath = image_style_url('extra_large', $context->data->field_image[$lang][0]['uri']);
+    $content = '<div class="title-image" style="background-image: url(\''.$imagepath.'\')" >'.$content.'</div>';
   }
 
   
